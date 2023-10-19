@@ -119,7 +119,7 @@ def peter():
     return False
 
 def samantha():
-    if users[2]['items'][0]['status'] == "Published" and users[2]['items'][1]['status']:
+    if users[2]['items'][0]['status'] == "Published" and users[2]['items'][1]['status'] == "Published":
         return (users[2]['items'][0]['reads'] + users[2]['items'][1]['reads']) / 2 > 1000
     return False
 
